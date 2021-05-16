@@ -1,2 +1,2 @@
-# tubesoft_backend_test
-Backend for a test to postulate to tubesfot
+# node_scrapping_api
+Stack: Node+Express+GraphQL+MongoDB, api for scrapping application
