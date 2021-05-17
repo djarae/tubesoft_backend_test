@@ -1,37 +1,24 @@
 {
-  "name": "node_scrapping_api",
+  "name": "node-easy-notes-app",
   "version": "1.0.0",
-  "description": "Stack: Node+Express+GraphQL+MongoDB, api for scrapping application",
-  "main": "index.js",
+  "description": "Never miss a thing in Life. Take notes quickly. Organize and keep track of all your notes.",
+  "main": "server.js",
   "scripts": {
-    "build": "babel src -d dist --source-maps",
-    "start": "nodemon src/index.js --exec babel-node",
-    "serve": "node dist/index.js",
-    "clean": "rimraf dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/djarae/node_scrapping_api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/djarae/node_scrapping_api/issues"
-  },
-  "homepage": "https://github.com/djarae/node_scrapping_api#readme",
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "callicoder",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.5.0",
-    "graphql-tools": "^7.0.5",
-    "rimraf": "^3.0.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.13.16",
-    "@babel/core": "^7.14.0",
-    "@babel/node": "^7.13.13",
-    "@babel/preset-env": "^7.14.1",
-    "nodemon": "^2.0.7"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6",
+    "sequelize": "^6.6.2"
   }
 }
