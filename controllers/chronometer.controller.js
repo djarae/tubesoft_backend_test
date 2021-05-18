@@ -1,4 +1,5 @@
 var Chronometer = require('../models/chronometer');
+
 // var Chronometer = require("../models/chronometer").Chronometer;
 
 
@@ -27,6 +28,10 @@ exports.create = function(req, res) {
         })
     })
 };
+
+
+
+
 
 exports.findAll = function(req, res) {
     console.log("entro al get  de prueba ")
