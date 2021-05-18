@@ -10,4 +10,4 @@ app.get('/', function(req, res){
 require('./routes/chronometer.routes')(app);
 console.log("funciona el require dontes ")
 
-app.listen(8090, () => console.log('server listening on port 8080'));
+app.listen(8070, () => console.log('server listening on port 8080'));
