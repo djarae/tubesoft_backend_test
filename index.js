@@ -15,6 +15,6 @@ app.get('/', function(req, res){
 // }) 
 
 require('./routes/chronometer.routes')(app);
-console.log("funciona el require dontes ")
+console.log("Ente4r ")
 
 app.listen(8070, () => console.log('server listening on port 8070'));

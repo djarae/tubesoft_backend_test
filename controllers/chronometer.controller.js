@@ -16,6 +16,7 @@ exports.create = function(req, res) {
         host: "localhost",
     }
     const pool = new pg.Pool(config);
+    console.log("Antes de que se cae")
     pool.connect((err, client, done) => {
         if (err) throw err;
         client.query(`INSERT INTO "Chronometers"  VALUES (` +req.body.id+`, '`+req.body.duration +`', '2008-01-01 00:00:01','2008-01-01 00:00:01')`, (err, res) => {
@@ -28,10 +29,6 @@ exports.create = function(req, res) {
         })
     })
 };
-
-
-
-
 
 exports.findAll = function(req, res) {
     console.log("entro al get  de prueba ")
